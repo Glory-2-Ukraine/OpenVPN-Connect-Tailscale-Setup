@@ -1,0 +1,23 @@
+# Credentials - never commit these
+*.auth
+*.key
+*.pem
+*.p12
+*.ovpn
+*.conf
+
+# Exception: example configs are fine
+!example/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
